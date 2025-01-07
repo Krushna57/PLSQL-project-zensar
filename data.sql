@@ -1,0 +1,110 @@
+--data for the region table
+INSERT INTO Region (region_id, region_name) VALUES (1, 'North Region');
+INSERT INTO Region (region_id, region_name) VALUES (2, 'South Region');
+INSERT INTO Region (region_id, region_name) VALUES (3, 'East Region');
+INSERT INTO Region (region_id, region_name) VALUES (4, 'West Region');
+INSERT INTO Region (region_id, region_name) VALUES (5, 'Central Region');
+INSERT INTO Region (region_id, region_name) VALUES (6, 'Northeast Region');
+INSERT INTO Region (region_id, region_name) VALUES (7, 'Northwest Region');
+INSERT INTO Region (region_id, region_name) VALUES (8, 'Southeast Region');
+INSERT INTO Region (region_id, region_name) VALUES (9, 'Southwest Region');
+INSERT INTO Region (region_id, region_name) VALUES (10, 'Union Territories');
+
+--data for the customer table
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (1, 'Alice Johnson', 'alice.johnson@example.com', '1234567890', 1);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (2, 'Bob Smith', 'bob.smith@example.com', '9876543210', 2);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (3, 'Charlie Brown', 'charlie.brown@example.com', '1122334455', 3);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (4, 'Diana Green', 'diana.green@example.com', '2233445566', 4);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (5, 'Evan Parker', 'evan.parker@example.com', '3344556677', 5);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (6, 'Fiona White', 'fiona.white@example.com', '4455667788', 6);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (7, 'George Hill', 'george.hill@example.com', '5566778899', 7);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (8, 'Hannah King', 'hannah.king@example.com', '6677889900', 8);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (9, 'Ian Adams', 'ian.adams@example.com', '7788990011', 9);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (10, 'Julia Scott', 'julia.scott@example.com', '8899001122', 10);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (11, 'Kevin Turner', 'kevin.turner@example.com', '9900112233', 1);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (12, 'Laura Davis', 'laura.davis@example.com', '1011121314', 2);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (13, 'Michael Lee', 'michael.lee@example.com', '1112131415', 3);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (14, 'Nina Clark', 'nina.clark@example.com', '1213141516', 4);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (15, 'Oliver Allen', 'oliver.allen@example.com', '1314151617', 5);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (16, 'Paula Lewis', 'paula.lewis@example.com', '1415161718', 6);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (17, 'Quentin Young', 'quentin.young@example.com', '1516171819', 7);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (18, 'Rachel Baker', 'rachel.baker@example.com', '1617181920', 8);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (19, 'Steve Harris', 'steve.harris@example.com', '1718192021', 9);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (20, 'Tina Wright', 'tina.wright@example.com', '1819202122', 10);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (21, 'Uma Carter', 'uma.carter@example.com', '1920212223', 1);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (22, 'Victor Brooks', 'victor.brooks@example.com', '2021222324', 2);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (23, 'Wendy Evans', 'wendy.evans@example.com', '2122232425', 3);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (24, 'Xavier Bennett', 'xavier.bennett@example.com', '2223242526', 4);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (25, 'Yvonne Morris', 'yvonne.morris@example.com', '2324252627', 5);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (26, 'Zachary Rogers', 'zachary.rogers@example.com', '2425262728', 6);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (27, 'Amelia Foster', 'amelia.foster@example.com', '2526272829', 7);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (28, 'Brian Gray', 'brian.gray@example.com', '2627282930', 8);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (29, 'Catherine Perry', 'catherine.perry@example.com', '2728293031', 9);
+INSERT INTO Customer (customer_id, name, email, phone, region_id) VALUES (30, 'Daniel Reed', 'daniel.reed@example.com', '2829303132', 10);
+
+--data for the product table
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (1, 'Smartphone A1', 'Electronics', 699.99, '01-JAN-2024');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (2, 'Laptop B2', 'Electronics', 1299.99, '15-FEB-2024');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (3, 'Air Conditioner C3', 'Appliances', 499.99, '20-DEC-2023');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (4, 'Refrigerator D4', 'Appliances', 999.99, '01-MAR-2024');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (5, 'Microwave E5', 'Appliances', 299.99, '10-NOV-2023');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (6, 'Smartwatch F6', 'Electronics', 199.99, '25-JAN-2024');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (7, 'Washing Machine G7', 'Appliances', 799.99, '05-DEC-2023');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (8, 'Tablet H8', 'Electronics', 399.99, '01-FEB-2024');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (9, 'Electric Kettle I9', 'Appliances', 49.99, '15-OCT-2023');
+INSERT INTO Product (product_id, name, category, price, release_date) VALUES (10, 'Headphones J10', 'Electronics', 149.99, '20-SEP-2023');
+
+--data for the feedback table
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (1, 1, 1, 5, 'Excellent product!', '01-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (2, 2, 2, 4, 'Very good quality.', '02-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (3, 3, 3, 3, 'Average performance.', '03-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (4, 4, 4, 2, 'Not satisfied with the product.', '04-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (5, 5, 5, 1, 'Terrible experience.', '05-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (6, 6, 6, 5, 'Highly recommend this!', '06-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (7, 7, 7, 4, 'Good value for the price.', '07-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (8, 8, 8, 3, 'Works fine but could be better.', '08-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (9, 9, 9, 2, 'Poor build quality.', '09-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (10, 10, 10, 1, 'Completely dissatisfied.', '10-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (11, 11, 1, 5, 'Fantastic product!', '11-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (12, 12, 2, 4, 'Impressive quality.', '12-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (13, 13, 3, 3, 'Not bad, but expected better.', '13-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (14, 14, 4, 2, 'Disappointed with the features.', '14-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (15, 15, 5, 1, 'Would not buy again.', '15-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (16, 16, 6, 5, 'Exceeded my expectations.', '16-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (17, 17, 7, 4, 'Pretty decent overall.', '17-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (18, 18, 8, 3, 'It does the job.', '18-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (19, 19, 9, 2, 'Low quality materials.', '19-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (20, 20, 10, 1, 'Regret purchasing it.', '20-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (21, 21, 1, 5, 'Top-notch product.', '21-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (22, 22, 2, 4, 'Satisfied with the purchase.', '22-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (23, 23, 3, 3, 'Could have been better.', '23-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (24, 24, 4, 2, 'Features are not as advertised.', '24-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (25, 25, 5, 1, 'Not worth the money.', '25-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (26, 26, 6, 5, 'Amazing experience!', '26-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (27, 27, 7, 4, 'Solid performance.', '27-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (28, 28, 8, 3, 'Meets basic expectations.', '28-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (29, 29, 9, 2, 'Needs major improvements.', '29-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (30, 30, 10, 1, 'Very disappointed.', '30-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (31, 1, 2, 4, 'Happy with the purchase.', '31-JAN-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (32, 2, 3, 3, 'Okay, but not great.', '01-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (33, 3, 4, 2, 'Product feels cheap.', '02-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (34, 4, 5, 1, 'Will not recommend.', '03-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (35, 5, 6, 5, 'Really impressed!', '04-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (36, 6, 7, 4, 'Good performance overall.', '05-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (37, 7, 8, 3, 'Mediocre experience.', '06-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (38, 8, 9, 2, 'Not durable.', '07-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (39, 9, 10, 1, 'Worst product ever.', '08-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (40, 10, 1, 5, 'Absolutely loved it!', '09-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (41, 11, 2, 4, 'Decent for the price.', '10-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (42, 12, 3, 3, 'Functional but not great.', '11-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (43, 13, 4, 2, 'Needs improvement.', '12-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (44, 14, 5, 1, 'Completely useless.', '13-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (45, 15, 6, 5, 'Would buy again!', '14-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (46, 16, 7, 4, 'Overall happy.', '15-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (47, 17, 8, 3, 'Just okay.', '16-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (48, 18, 9, 2, 'Poor experience.', '17-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (49, 19, 10, 1, 'Horrible quality.', '18-FEB-2024');
+INSERT INTO Feedback (feedback_id, customer_id, product_id, rating, comments, feedback_date) VALUES (50, 20, 1, 5, 'Superb product!', '19-FEB-2024');
+
+--data for the audit log table
+--the data will automatically insert in this table after updation on the data using the trigger

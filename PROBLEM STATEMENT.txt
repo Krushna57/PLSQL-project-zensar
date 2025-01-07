@@ -1,0 +1,7 @@
+PS-ID: 11
+PS TITLE: Customer Feedback Analysis System
+Description: Develop a database to store and analyze customer feedback for a product or service.
+Key Tasks:
+     - Use SQL to aggregate and analyze feedback by rating, product, or region.
+     - Write PL/SQL functions to identify the most common complaints.
+     - Implement triggers to log feedback updates.
