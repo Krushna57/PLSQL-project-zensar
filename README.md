@@ -16,12 +16,12 @@ The **Customer Feedback Analysis System** is designed to store and analyze custo
 
 ## Database Schema
 The database consists of the following tables:
-1.Region
-2.Customer
-3.Product
-4.Feedback
-5.Audit_Log
-These table structure is provided in the project file named as 'tables.sql' with the data queries file named as 'data.sql'
+1. Region
+2. Customer
+3. Product
+4. Feedback
+5. Audit_Log
+- These table structure is provided in the project file named as 'tables.sql' with the data queries file named as 'data.sql'
 
 **Description:** Maintains an audit trail of feedback updates with details about changes and responsible personnel.
 
@@ -47,5 +47,8 @@ These table structure is provided in the project file named as 'tables.sql' with
 - Integrate machine learning models to predict customer satisfaction.
 
 ## Authors
-Developed by [Sahane Krushna].
+- Developed by [Sahane Krushna].
+- College Name : Amrutvahini College Of Engineering, Sangamner.
+- Department : (TE) Computer Engineering
+- Email : krushnasahane57@gmail.com
 
